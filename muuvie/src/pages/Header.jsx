@@ -3,6 +3,7 @@ import "./header.css";
 import NavList from "../components/Navlist";
 import navListData from "../data/navListData";
 import Search from "../components/Search";
+import Banner from "./Banner";
 
 function Header() {
   return (
@@ -16,6 +17,7 @@ function Header() {
         ))}
       </ul>
       <Search />
+      <Banner />
     </header>
   );
 }
